@@ -1,0 +1,22 @@
+.typingText {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+/* カーソルを追加 */
+/* .typingText::after {
+  content: '|';
+  color: white;
+  animation: blink 1s infinite;
+} */
+
+/* カーソルを点滅させる */
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
