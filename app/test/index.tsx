@@ -53,7 +53,7 @@ const Test = () => {
   }
 
   useEffect(() => {
-    timeoutId.current = setTimeout(typeText, 800)
+    timeoutId.current = setTimeout(typeText, 500)
     return () => {
       timeoutId.current && clearTimeout(timeoutId.current)
     }
