@@ -60,7 +60,10 @@ const Test = () => {
   }, [textIndex])
   return (
     <>
-      <p className={classes.typingText}>{text}</p>
+      <h1>tokiolab.dev</h1>
+      <div className={classes.centerContainer}>
+        <p className={classes.typingText}>{text}</p>
+      </div>
     </>
   )
 }
