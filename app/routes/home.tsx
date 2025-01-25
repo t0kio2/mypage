@@ -1,11 +1,10 @@
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
 import Test from "../test/index";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "tokiolab.dev" },
+    { name: "description", content: "Welcome to tokiolab!" },
   ];
 }
 
@@ -13,9 +12,22 @@ export default function Home() {
   // return <Welcome />;
   return (
     <>
+      {/* ファーストビュー */}
       <Test />
+
+      {/* ファーストビュー */}
       <div>
-        aasfsafsafdsd
+        Section 1
+      </div>
+
+      {/* ファーストビュー */}
+      <div>
+        Section 2
+      </div>
+      
+      {/* ファーストビュー */}
+      <div>
+        Section 3
       </div>
     </>
   )
