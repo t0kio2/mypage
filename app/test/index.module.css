@@ -1,3 +1,29 @@
+/*
+ * グラデーションアニメーション
+ */
+.gradWrapper {
+  width: 100vw;
+  height: 100vh;
+  background:linear-gradient(45deg, #ebedee,#e0c3fc,#8ec5fc,#ebedee);/*グラデーションを定義*/
+  background-size: 200% 200%;
+  animation: bggradient 15s ease infinite;  
+}
+
+@keyframes bggradient{
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/*
+ * テキストアニメーション
+ */
 .typingText {
   font-size: 50px;
   color: white;
@@ -20,7 +46,6 @@
     opacity: 0;
   }
 }
-
 .centerContainer {
   display: flex;
   justify-content: center; /* 横方向(水平方向)の中央揃え */

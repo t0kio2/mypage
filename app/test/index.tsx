@@ -59,12 +59,12 @@ const Test = () => {
     }
   }, [textIndex])
   return (
-    <>
+    <div className={classes.gradWrapper}>
       <h1>tokiolab.dev</h1>
       <div className={classes.centerContainer}>
         <p className={classes.typingText}>{text}</p>
       </div>
-    </>
+    </div>
   )
 }
 
